@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anupam Roy — Independent Web Developer & Digital Product Builder</title>
+  <meta name="description" content="I design and build high-performance websites and web applications that help businesses look better, work smarter, and grow online. Freelance web developer specialising in React, Next.js, and full-stack development." />
+  <meta name="keywords" content="freelance web developer, React developer, Next.js developer, full-stack developer, UI UX designer, web application, landing page, e-commerce development" />
+  <meta property="og:title" content="Anupam Roy — Independent Web Developer & Digital Product Builder" />
+  <meta property="og:description" content="From strategy and UI/UX to development and deployment, I help businesses turn ideas into fast, scalable and conversion-focused digital experiences." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="/" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⬡</text></svg>" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════════════
+       NAVIGATION
+       ══════════════════════════════════════════════════════ -->
+  <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="/" class="nav-logo" id="nav-logo">AR<span>.</span></a>
+
+        <ul class="nav-links" role="list">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#about">Why Me</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-cta">
+          <a href="#contact" class="btn btn-primary" id="nav-cta-btn">Start a Project →</a>
+        </div>
+
+        <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav -->
+  <nav class="nav-mobile" id="nav-mobile" role="navigation" aria-label="Mobile navigation">
+    <a href="#services" class="mobile-link">Services</a>
+    <a href="#work" class="mobile-link">Work</a>
+    <a href="#process" class="mobile-link">Process</a>
+    <a href="#about" class="mobile-link">Why Me</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+    <a href="#contact" class="btn btn-primary" style="margin-top:28px; align-self:flex-start;">Start a Project →</a>
+  </nav>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       HERO
+       ══════════════════════════════════════════════════════ -->
+  <section class="hero" id="home" aria-labelledby="hero-headline">
+    <div class="hero-grid-bg"></div>
+    <div class="container">
+      <div class="hero-inner">
+
+        <!-- Content -->
+        <div class="hero-content reveal">
+          <div class="hero-badge" id="hero-badge">
+            <span class="hero-badge-dot"></span>
+            Available for Freelance Projects
+          </div>
+
+          <h1 class="hero-headline" id="hero-headline">
+            I Build Digital Experiences That Turn<br>
+            <span class="grad">Ideas Into Business.</span>
+          </h1>
+
+          <p class="hero-sub">
+            Premium websites and web applications designed for performance, credibility and conversion.
+          </p>
+
+          <p class="hero-desc">
+            From strategy and UI/UX to development and deployment, I help businesses turn ideas into fast, scalable and conversion-focused digital experiences.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary" id="hero-cta-primary">
+              Start a Project
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </a>
+            <a href="#work" class="btn btn-ghost" id="hero-cta-secondary">View My Work</a>
+          </div>
+
+          <div class="hero-trust">
+            <div class="hero-trust-item">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+              </svg>
+              Independent Developer
+            </div>
+            <div class="hero-trust-sep"></div>
+            <div class="hero-trust-item">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+              </svg>
+              3+ Years Experience
+            </div>
+            <div class="hero-trust-sep"></div>
+            <div class="hero-trust-item">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+              </svg>
+              50+ Websites & Projects
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual -->
+        <div class="hero-visual reveal reveal-delay-2">
+          <div class="hero-badge-float hero-badge-float-1" aria-hidden="true">
+            <div class="badge-icon green">⚡</div>
+            <div>
+              <div style="font-size:13px;font-weight:700;">Fast Delivery</div>
+              <div style="font-size:11px;color:var(--text-muted);font-weight:400;">Production-ready code</div>
+            </div>
+          </div>
+
+          <div class="hero-img-wrap">
+            <img src="assets/hero-visual.jpg" alt="Web application and dashboard UI composition showcasing modern digital product design" width="600" height="340" loading="eager" />
+          </div>
+
+          <div class="hero-badge-float hero-badge-float-2" aria-hidden="true">
+            <div class="badge-icon indigo">🎯</div>
+            <div>
+              <div style="font-size:13px;font-weight:700;">Conversion-Focused</div>
+              <div style="font-size:11px;color:var(--text-muted);font-weight:400;">Built to generate leads</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       CLIENT-FIRST / VALUE SECTION
+       ══════════════════════════════════════════════════════ -->
+  <section class="value-section" id="value" aria-labelledby="value-heading">
+    <div class="container">
+      <div class="value-header reveal">
+        <div class="section-label">The Difference</div>
+        <h2 class="section-heading" id="value-heading">Your Website Should Do More Than Look Good.</h2>
+        <p class="section-sub" style="margin:0 auto;">
+          A website is a business asset. When designed and developed correctly, it builds trust, generates leads, performs reliably and grows with your business.
+        </p>
+      </div>
+
+      <div class="value-grid">
+        <div class="value-card reveal reveal-delay-1">
+          <div class="value-icon">🛡️</div>
+          <h3>Build Trust</h3>
+          <p>A professional digital presence that makes visitors feel confident about your business from the first second they land on your site.</p>
+        </div>
+        <div class="value-card reveal reveal-delay-2">
+          <div class="value-icon">📈</div>
+          <h3>Generate Leads</h3>
+          <p>Clear messaging, strong calls to action and conversion-focused user journeys that turn visitors into enquiries and enquiries into clients.</p>
+        </div>
+        <div class="value-card reveal reveal-delay-3">
+          <div class="value-icon">⚡</div>
+          <h3>Perform Fast</h3>
+          <p>Responsive, optimised experiences built for speed. Better Core Web Vitals means better user experience and better search rankings.</p>
+        </div>
+        <div class="value-card reveal reveal-delay-4">
+          <div class="value-icon">🔧</div>
+          <h3>Scale With You</h3>
+          <p>Clean architecture that allows your website or web application to evolve as your business grows — without rebuilding from scratch.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       SERVICES
+       ══════════════════════════════════════════════════════ -->
+  <section class="services-section" id="services" aria-labelledby="services-heading">
+    <div class="container">
+      <div class="services-header">
+        <div>
+          <div class="section-label reveal">Services</div>
+          <h2 class="section-heading reveal" id="services-heading">What I Can Build For You</h2>
+        </div>
+        <a href="#contact" class="btn btn-ghost reveal">Discuss Your Project →</a>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card reveal reveal-delay-1">
+          <span class="service-number">01</span>
+          <div class="service-icon si-1">🌐</div>
+          <h3>Business Websites</h3>
+          <p>Modern websites designed to establish credibility and generate enquiries. Built for performance, SEO and conversion.</p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-2">
+          <span class="service-number">02</span>
+          <div class="service-icon si-2">🎯</div>
+          <h3>Landing Pages</h3>
+          <p>High-converting landing pages designed around a specific campaign, product or offer — built to maximise results.</p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-3">
+          <span class="service-number">03</span>
+          <div class="service-icon si-3">⚙️</div>
+          <h3>Web Applications</h3>
+          <p>Scalable React/Next.js applications with modern architecture, intuitive interfaces and seamless user experiences.</p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-4">
+          <span class="service-number">04</span>
+          <div class="service-icon si-4">🛍️</div>
+          <h3>E-commerce</h3>
+          <p>Modern shopping experiences with product management, secure checkout flows, payment integrations and inventory systems.</p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-1">
+          <span class="service-number">05</span>
+          <div class="service-icon si-5">🎨</div>
+          <h3>UI/UX Design</h3>
+          <p>Clean, intuitive interfaces designed around real users and business goals. Figma prototypes, design systems and more.</p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-2">
+          <span class="service-number">06</span>
+          <div class="service-icon si-6">✨</div>
+          <h3>Website Redesign</h3>
+          <p>Transform outdated websites into modern, responsive and conversion-focused experiences that reflect your brand.</p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-3">
+          <span class="service-number">07</span>
+          <div class="service-icon si-7">🔗</div>
+          <h3>Full-Stack Development</h3>
+          <p>Frontend + backend + database + API integration + deployment. End-to-end product development under one roof.</p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-4">
+          <span class="service-number">08</span>
+          <div class="service-icon si-8">🚀</div>
+          <h3>Performance & SEO</h3>
+          <p>Improve loading speed, technical SEO, responsiveness and Core Web Vitals. Faster sites rank higher and convert better.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       PORTFOLIO / SELECTED WORK
+       ══════════════════════════════════════════════════════ -->
+  <section class="portfolio-section" id="work" aria-labelledby="portfolio-heading">
+    <div class="container">
+      <div class="portfolio-header reveal">
+        <div class="section-label">Selected Work</div>
+        <h2 class="section-heading" id="portfolio-heading">A Few Digital Experiences<br>I've Designed and Built.</h2>
+        <p class="section-sub" style="margin-top:16px;">
+          Each project starts with understanding a business problem and ends with a solution that performs.
+        </p>
+      </div>
+
+      <div class="portfolio-grid" id="portfolio-grid">
+
+        <!-- Project 1: Sunvika Reiki -->
+        <div class="project-card reveal">
+          <div class="project-img-wrap">
+            <img src="https://anupamcodes.vercel.app/assets/image/project_ss/sunvikareiki/sunvikareiki-desktop.png" alt="Sunvika Reiki website — holistic wellness and healing practice" loading="lazy" />
+            <div class="project-overlay" aria-hidden="true"></div>
+            <div class="project-tags">
+              <span class="project-tag">Health & Wellness</span>
+              <span class="project-tag accent">Business Website</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span>Sunvika Reiki</span>
+              <span class="project-meta-sep">/</span>
+              <span>Wellness Practice Website</span>
+            </div>
+            <h3>Holistic Wellness Website for a WHO-Approved Reiki Practice</h3>
+            <p>Designed and built a warm, credibility-first website for a Reiki healing practice. The goal was to communicate trust, explain the service clearly, and make it easy for visitors to get in touch and book sessions.</p>
+            <div class="project-tech">
+              <span class="tech-chip">HTML5</span>
+              <span class="tech-chip">CSS3</span>
+              <span class="tech-chip">JavaScript</span>
+              <span class="tech-chip">Bootstrap</span>
+            </div>
+            <div class="project-footer">
+              <div class="project-result">
+                <strong>Live Website</strong>
+                sunvikareiki.org
+              </div>
+              <a href="https://sunvikareiki.org/" target="_blank" rel="noopener noreferrer" class="project-cta-link" id="cs-sunvika-link">
+                View Live Site
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M17 7H7M17 7v10" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Think Europe -->
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-img-wrap">
+            <img src="https://anupamcodes.vercel.app/assets/image/project_ss/thinkeurope/thinkeurope-de-1366.png" alt="Think Europe website — visa and career consultancy for Germany" loading="lazy" />
+            <div class="project-overlay" aria-hidden="true"></div>
+            <div class="project-tags">
+              <span class="project-tag">Consulting</span>
+              <span class="project-tag accent">Business Website</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span>Think Europe</span>
+              <span class="project-meta-sep">/</span>
+              <span>Visa & Career Consultancy</span>
+            </div>
+            <h3>Professional Website for Europe's Premier Employment & Migration Advisor</h3>
+            <p>Built a comprehensive, multi-section website for Think Germany — Europe's No.1 B2B & B2C Migration Advisor since 2010. The site handles a large volume of service information while maintaining clear navigation and strong lead generation.</p>
+            <div class="project-tech">
+              <span class="tech-chip">HTML5</span>
+              <span class="tech-chip">CSS3</span>
+              <span class="tech-chip">JavaScript</span>
+              <span class="tech-chip">Bootstrap</span>
+            </div>
+            <div class="project-footer">
+              <div class="project-result">
+                <strong>Live Website</strong>
+                thinkeurope.de
+              </div>
+              <a href="https://thinkeurope.de/" target="_blank" rel="noopener noreferrer" class="project-cta-link" id="cs-thinkeurope-link">
+                View Live Site
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M17 7H7M17 7v10" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Sand View Hotel -->
+        <div class="project-card reveal">
+          <div class="project-img-wrap">
+            <img src="https://anupamcodes.vercel.app/assets/image/project_ss/hotelsandview/hotelsandview-desktop.png" alt="Sand View Hotel website — hospitality business website for Oman hotel group" loading="lazy" />
+            <div class="project-overlay" aria-hidden="true"></div>
+            <div class="project-tags">
+              <span class="project-tag">Hospitality</span>
+              <span class="project-tag accent">Business Website</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span>Sand View Hotel</span>
+              <span class="project-meta-sep">/</span>
+              <span>Hotel & Hospitality</span>
+            </div>
+            <h3>Hospitality Website for a Multi-Property Hotel Group in Oman</h3>
+            <p>Designed and built a professional hospitality website for Sand View Hotel — part of the New Chain Hospitality Group operating across Oman since 1995. The site showcases their properties and services while generating enquiries and reservations.</p>
+            <div class="project-tech">
+              <span class="tech-chip">HTML5</span>
+              <span class="tech-chip">CSS3</span>
+              <span class="tech-chip">JavaScript</span>
+              <span class="tech-chip">Bootstrap</span>
+            </div>
+            <div class="project-footer">
+              <div class="project-result">
+                <strong>Live Website</strong>
+                hotelsandview.com
+              </div>
+              <a href="https://www.hotelsandview.com/" target="_blank" rel="noopener noreferrer" class="project-cta-link" id="cs-sandview-link">
+                View Live Site
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M17 7H7M17 7v10" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: TaskEnhancer -->
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-img-wrap">
+            <img src="https://anupamcodes.vercel.app/assets/image/project_ss/taskenhancer/taskenhancer-desktop.png" alt="TaskEnhancer website — virtual assistant services platform" loading="lazy" />
+            <div class="project-overlay" aria-hidden="true"></div>
+            <div class="project-tags">
+              <span class="project-tag">Productivity / SaaS</span>
+              <span class="project-tag accent">Business Website</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span>TaskEnhancer</span>
+              <span class="project-meta-sep">/</span>
+              <span>Virtual Assistant Services</span>
+            </div>
+            <h3>Modern Business Website for a Productivity & Virtual Assistant Platform</h3>
+            <p>Built a clean, conversion-focused website for TaskEnhancer — a platform connecting businesses with dependable virtual assistant professionals. The site communicates the service offering clearly and drives sign-up enquiries.</p>
+            <div class="project-tech">
+              <span class="tech-chip">HTML5</span>
+              <span class="tech-chip">CSS3</span>
+              <span class="tech-chip">JavaScript</span>
+              <span class="tech-chip">Bootstrap</span>
+            </div>
+            <div class="project-footer">
+              <div class="project-result">
+                <strong>Live Website</strong>
+                taskenhancer.com
+              </div>
+              <a href="https://www.taskenhancer.com/" target="_blank" rel="noopener noreferrer" class="project-cta-link" id="cs-taskenhancer-link">
+                View Live Site
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M17 7H7M17 7v10" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Show More Projects -->
+      <div style="margin-top:48px;text-align:center;" class="reveal">
+        <button id="more-projects-btn" onclick="toggleMoreProjects()" class="btn btn-ghost" style="margin:0 auto;display:inline-flex;">
+          <span id="more-btn-label">+ Show More Projects (5)</span>
+        </button>
+      </div>
+
+      <div id="more-projects-grid" style="display:none;margin-top:28px;" class="portfolio-grid">
+
+        <!-- Santiniketan Polytechnic -->
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="https://anupamcodes.vercel.app/assets/image/project_ss/santiniketanpolytechnic/santiniketanpolyte-desktop.png" alt="Santiniketan Polytechnic website" loading="lazy" />
+            <div class="project-overlay" aria-hidden="true"></div>
+            <div class="project-tags"><span class="project-tag">Education</span><span class="project-tag accent">Business Website</span></div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta"><span>Santiniketan Polytechnic</span><span class="project-meta-sep">/</span><span>Education Website</span></div>
+            <h3>Education Website for a Leading Polytechnic Institute</h3>
+            <p>Built a comprehensive institutional website for Santiniketan Polytechnic — showcasing their programs, community initiatives and career development support with clear navigation for prospective students.</p>
+            <div class="project-tech"><span class="tech-chip">HTML5</span><span class="tech-chip">CSS3</span><span class="tech-chip">JavaScript</span><span class="tech-chip">Bootstrap</span></div>
+            <div class="project-footer">
+              <div class="project-result"><strong>Live Website</strong>santiniketanpolytechnic.in</div>
+              <a href="https://santiniketanpolytechnic.in/" target="_blank" rel="noopener noreferrer" class="project-cta-link" id="cs-sp-link">View Live Site <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M17 7H7M17 7v10" /></svg></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Illambazar Nursing Institute -->
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="https://anupamcodes.vercel.app/assets/image/project_ss/illambazarnursing/illambazarnursing-desktop.png" alt="Illambazar Nursing Institute website" loading="lazy" />
+            <div class="project-overlay" aria-hidden="true"></div>
+            <div class="project-tags"><span class="project-tag">Healthcare / Education</span><span class="project-tag accent">Business Website</span></div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta"><span>Illambazar Nursing Institute</span><span class="project-meta-sep">/</span><span>Education Website</span></div>
+            <h3>Institutional Website for a Nursing College in West Bengal</h3>
+            <p>Designed and built a professional website for Illambazar Nursing Institute, established under the Illambazar Educational &amp; Welfare Foundation, serving nursing aspirants across Birbhum district.</p>
+            <div class="project-tech"><span class="tech-chip">HTML5</span><span class="tech-chip">CSS3</span><span class="tech-chip">JavaScript</span><span class="tech-chip">Bootstrap</span></div>
+            <div class="project-footer">
+              <div class="project-result"><strong>Live Website</strong>illambazarnursing.org</div>
+              <a href="https://illambazarnursing.org/" target="_blank" rel="noopener noreferrer" class="project-cta-link" id="cs-ini-link">View Live Site <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M17 7H7M17 7v10" /></svg></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- NSMS Nursing -->
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="https://anupamcodes.vercel.app/assets/image/project_ss/NSMSNursing/NSMSNursing-desktop.png" alt="NSMS Nursing Institute website" loading="lazy" />
+            <div class="project-overlay" aria-hidden="true"></div>
+            <div class="project-tags"><span class="project-tag">Healthcare / Education</span><span class="project-tag accent">Business Website</span></div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta"><span>NSMS Nursing Institute</span><span class="project-meta-sep">/</span><span>Education Website</span></div>
+            <h3>Website for a Private Nursing College Affiliated with WBNC &amp; INC</h3>
+            <p>Built a credibility-focused website for NSMS Nursing Institute in Durgapur — a prestigious private nursing college providing quality education and skills to nursing aspirants across West Bengal.</p>
+            <div class="project-tech"><span class="tech-chip">HTML5</span><span class="tech-chip">CSS3</span><span class="tech-chip">JavaScript</span><span class="tech-chip">Bootstrap</span></div>
+            <div class="project-footer">
+              <div class="project-result"><strong>Live Website</strong>nsmsnursing.com</div>
+              <a href="https://nsmsnursing.com/" target="_blank" rel="noopener noreferrer" class="project-cta-link" id="cs-nsms-link">View Live Site <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M17 7H7M17 7v10" /></svg></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Illambazar Pharmacy -->
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="https://anupamcodes.vercel.app/assets/image/project_ss/illambazarip/illambazarip-desktop.png" alt="Illambazar Institute of Pharmacy website" loading="lazy" />
+            <div class="project-overlay" aria-hidden="true"></div>
+            <div class="project-tags"><span class="project-tag">Healthcare / Education</span><span class="project-tag accent">Business Website</span></div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta"><span>Illambazar Pharmacy</span><span class="project-meta-sep">/</span><span>Education Website</span></div>
+            <h3>Website for an Institute of Pharmacy Focused on Innovation</h3>
+            <p>Designed and built a modern website for Illambazar Institute of Pharmacy, emphasising their mission to empower students through education and innovation in pharmaceutical sciences.</p>
+            <div class="project-tech"><span class="tech-chip">HTML5</span><span class="tech-chip">CSS3</span><span class="tech-chip">JavaScript</span><span class="tech-chip">Bootstrap</span></div>
+            <div class="project-footer">
+              <div class="project-result"><strong>Live Website</strong>illambazarip.in</div>
+              <a href="https://illambazarip.in/" target="_blank" rel="noopener noreferrer" class="project-cta-link" id="cs-ip-link">View Live Site <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M17 7H7M17 7v10" /></svg></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- NSMS Pharmacy -->
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="https://anupamcodes.vercel.app/assets/image/project_ss/NSMSPharmacy/NSMSPharmacy-desktop.jpg" alt="NSMS Institute of Pharmacy website" loading="lazy" />
+            <div class="project-overlay" aria-hidden="true"></div>
+            <div class="project-tags"><span class="project-tag">Healthcare / Education</span><span class="project-tag accent">Business Website</span></div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta"><span>NSMS Pharmacy Institute</span><span class="project-meta-sep">/</span><span>Education Website</span></div>
+            <h3>Website for a Diploma-Level Pharmacy Institute in Durgapur</h3>
+            <p>Built a professional institutional website for NSMS Institute of Pharmacy — offering a 2-year D. Pharm diploma program, governed by the National School of Management Studies and registered under the West Bengal Society Act.</p>
+            <div class="project-tech"><span class="tech-chip">HTML5</span><span class="tech-chip">CSS3</span><span class="tech-chip">JavaScript</span><span class="tech-chip">Bootstrap</span></div>
+            <div class="project-footer">
+              <div class="project-result"><strong>Live Website</strong>nsmsip.in</div>
+              <a href="https://nsmsip.in/" target="_blank" rel="noopener noreferrer" class="project-cta-link" id="cs-nsmsip-link">View Live Site <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M17 7H7M17 7v10" /></svg></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       WHY WORK WITH ME
+       ══════════════════════════════════════════════════════ -->
+  <section class="why-section" id="about" aria-labelledby="why-heading">
+    <div class="container">
+      <div class="why-header reveal">
+        <div class="section-label">Why Me</div>
+        <h2 class="section-heading" id="why-heading">Why Clients Work With Me</h2>
+        <p class="section-sub" style="margin-top:12px;">
+          You're not hiring a dev shop or an agency. You're working directly with the person designing and building your product.
+        </p>
+      </div>
+
+      <div class="why-grid">
+
+        <div class="why-card reveal reveal-delay-1">
+          <div class="why-icon">💬</div>
+          <h3>Direct Communication</h3>
+          <p>You work directly with the person designing and building your product — no project managers, no handoffs, no miscommunication.</p>
+        </div>
+
+        <div class="why-card reveal reveal-delay-2">
+          <div class="why-icon">🧠</div>
+          <h3>Business-Minded Development</h3>
+          <p>I don't just follow instructions. I think about users, conversions and business objectives and build towards those goals.</p>
+        </div>
+
+        <div class="why-card reveal reveal-delay-3">
+          <div class="why-icon">⚡</div>
+          <h3>Design + Development</h3>
+          <p>One person who understands both design and engineering reduces communication gaps and produces more coherent products.</p>
+        </div>
+
+        <div class="why-card reveal reveal-delay-4">
+          <div class="why-icon">🏗️</div>
+          <h3>Clean & Scalable Code</h3>
+          <p>Built with maintainability and future expansion in mind. Your product should be easy to update, extend and hand off.</p>
+        </div>
+
+        <div class="why-card reveal reveal-delay-5">
+          <div class="why-icon">📱</div>
+          <h3>Responsive by Default</h3>
+          <p>Every experience is designed for mobile, tablet and desktop from the very beginning — not treated as an afterthought.</p>
+        </div>
+
+        <div class="why-card reveal reveal-delay-6">
+          <div class="why-icon">🚀</div>
+          <h3>End-to-End Delivery</h3>
+          <p>From initial concept and planning through to deployment and post-launch improvements. Complete ownership of the process.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       PROCESS
+       ══════════════════════════════════════════════════════ -->
+  <section class="process-section" id="process" aria-labelledby="process-heading">
+    <div class="process-bg-glow" aria-hidden="true"></div>
+    <div class="container">
+      <div class="process-header reveal">
+        <div class="section-label">How It Works</div>
+        <h2 class="section-heading" id="process-heading">From Idea to Launch</h2>
+        <p class="section-sub">A clear, structured process that keeps your project moving without unnecessary complexity.</p>
+      </div>
+
+      <div class="process-steps" role="list">
+
+        <div class="process-step reveal reveal-delay-1" role="listitem">
+          <div class="process-step-num" aria-hidden="true">01</div>
+          <div>
+            <h3>Discover</h3>
+            <p>Understand your business, audience, goals and requirements before touching a single line of code.</p>
+          </div>
+        </div>
+
+        <div class="process-step reveal reveal-delay-2" role="listitem">
+          <div class="process-step-num" aria-hidden="true">02</div>
+          <div>
+            <h3>Plan</h3>
+            <p>Define structure, user journeys, features and the technical approach that fits your timeline and budget.</p>
+          </div>
+        </div>
+
+        <div class="process-step reveal reveal-delay-3" role="listitem">
+          <div class="process-step-num" aria-hidden="true">03</div>
+          <div>
+            <h3>Design</h3>
+            <p>Create the visual direction and responsive UI/UX with clear navigation and conversion-focused layouts.</p>
+          </div>
+        </div>
+
+        <div class="process-step reveal reveal-delay-4" role="listitem">
+          <div class="process-step-num" aria-hidden="true">04</div>
+          <div>
+            <h3>Build</h3>
+            <p>Develop, integrate APIs, test across devices and optimise performance until everything works perfectly.</p>
+          </div>
+        </div>
+
+        <div class="process-step reveal reveal-delay-5" role="listitem">
+          <div class="process-step-num" aria-hidden="true">05</div>
+          <div>
+            <h3>Launch</h3>
+            <p>Deploy, monitor performance and provide post-launch support so your product goes live without surprises.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="process-tagline reveal">
+        Clear communication. Transparent progress. No unnecessary complexity.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       TECHNOLOGY
+       ══════════════════════════════════════════════════════ -->
+  <section class="tech-section" id="tech" aria-labelledby="tech-heading">
+    <div class="container">
+      <div class="tech-header reveal">
+        <div class="section-label" style="justify-content:center;">Technology</div>
+        <h2 class="section-heading" id="tech-heading">Built With Modern Technology</h2>
+        <p class="section-sub" style="margin:12px auto 0; text-align:center;">
+          I work with a focused, modern stack — not a bloated list of every tool that exists.
+        </p>
+      </div>
+
+      <div class="tech-groups">
+        <div class="tech-group reveal">
+          <div class="tech-group-label">Frontend</div>
+          <div class="tech-pills">
+            <span class="tech-pill">React.js</span>
+            <span class="tech-pill">Next.js</span>
+            <span class="tech-pill">JavaScript</span>
+            <span class="tech-pill">TypeScript</span>
+            <span class="tech-pill">HTML5</span>
+            <span class="tech-pill">CSS3</span>
+          </div>
+        </div>
+
+        <div class="tech-group reveal reveal-delay-1">
+          <div class="tech-group-label">Styling & UI</div>
+          <div class="tech-pills">
+            <span class="tech-pill">Tailwind CSS</span>
+            <span class="tech-pill">SASS / SCSS</span>
+            <span class="tech-pill">Bootstrap</span>
+            <span class="tech-pill">Framer Motion</span>
+            <span class="tech-pill">Figma</span>
+          </div>
+        </div>
+
+        <div class="tech-group reveal reveal-delay-2">
+          <div class="tech-group-label">Backend</div>
+          <div class="tech-pills">
+            <span class="tech-pill">Node.js</span>
+            <span class="tech-pill">Express.js</span>
+            <span class="tech-pill">REST APIs</span>
+            <span class="tech-pill">GraphQL</span>
+            <span class="tech-pill">Firebase</span>
+          </div>
+        </div>
+
+        <div class="tech-group reveal reveal-delay-3">
+          <div class="tech-group-label">Database</div>
+          <div class="tech-pills">
+            <span class="tech-pill">PostgreSQL</span>
+            <span class="tech-pill">MongoDB</span>
+            <span class="tech-pill">MySQL</span>
+            <span class="tech-pill">Prisma ORM</span>
+            <span class="tech-pill">Supabase</span>
+          </div>
+        </div>
+
+        <div class="tech-group reveal reveal-delay-4">
+          <div class="tech-group-label">CMS & Tools</div>
+          <div class="tech-pills">
+            <span class="tech-pill">Sanity</span>
+            <span class="tech-pill">Contentful</span>
+            <span class="tech-pill">Stripe</span>
+            <span class="tech-pill">Vercel</span>
+            <span class="tech-pill">AWS</span>
+            <span class="tech-pill">Docker</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       CONTACT
+       ══════════════════════════════════════════════════════ -->
+  <section class="contact-section" id="contact" aria-labelledby="contact-heading">
+    <div class="contact-glow" aria-hidden="true"></div>
+    <div class="contact-glow-2" aria-hidden="true"></div>
+    <div class="container">
+      <div class="contact-inner">
+
+        <!-- Left: Info -->
+        <div class="contact-left reveal">
+          <div class="section-label">Let's Work Together</div>
+          <h2 id="contact-heading">
+            Have a Project<br>
+            <span class="text-grad">In Mind?</span>
+          </h2>
+          <p>
+            Whether you're starting from scratch, redesigning an existing site or building a full web application — I'd love to hear about your project. Let's talk about what you need and how I can help.
+          </p>
+
+          <div class="contact-details">
+            <a href="mailto:hello@anupamroy.dev" class="contact-detail" id="contact-email">
+              <div class="contact-detail-icon">✉️</div>
+              hello@anupamroy.dev
+            </a>
+            <a href="https://www.linkedin.com/in/anupam-r-a44848329/" class="contact-detail" id="contact-linkedin" target="_blank" rel="noopener noreferrer">
+              <div class="contact-detail-icon">💼</div>
+              linkedin.com/in/anupam-r-a44848329
+            </a>
+            <a href="https://github.com/apanupam" class="contact-detail" id="contact-github" target="_blank" rel="noopener noreferrer">
+              <div class="contact-detail-icon">🐙</div>
+              github.com/apanupam
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Form -->
+        <div class="contact-form-wrap reveal reveal-delay-2">
+          <h3>Start a Project</h3>
+
+          <form id="contact-form" action="https://formspree.io/f/contact" method="POST" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contact-name">Your Name</label>
+                <input type="text" id="contact-name" name="name" placeholder="John Smith" required autocomplete="name" />
+              </div>
+              <div class="form-group">
+                <label for="contact-email-input">Email Address</label>
+                <input type="email" id="contact-email-input" name="email" placeholder="john@company.com" required autocomplete="email" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contact-project-type">Project Type</label>
+                <select id="contact-project-type" name="project_type" required>
+                  <option value="" disabled selected>Select type…</option>
+                  <option value="business-website">Business Website</option>
+                  <option value="landing-page">Landing Page</option>
+                  <option value="web-application">Web Application</option>
+                  <option value="ecommerce">E-commerce</option>
+                  <option value="ui-ux-design">UI/UX Design</option>
+                  <option value="redesign">Website Redesign</option>
+                  <option value="full-stack">Full-Stack Development</option>
+                  <option value="maintenance">Maintenance / SEO</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="contact-budget">Budget Range</label>
+                <select id="contact-budget" name="budget">
+                  <option value="" disabled selected>Select budget…</option>
+                  <option value="under-1k">Under $1,000</option>
+                  <option value="1k-3k">$1,000 – $3,000</option>
+                  <option value="3k-7k">$3,000 – $7,000</option>
+                  <option value="7k-15k">$7,000 – $15,000</option>
+                  <option value="15k+">$15,000+</option>
+                  <option value="discuss">Let's Discuss</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message">Tell Me About Your Project</label>
+              <textarea id="contact-message" name="message" placeholder="Describe your project, goals, timeline, and anything else that would help me understand what you need…" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary form-submit" id="contact-submit-btn">
+              Send Message →
+            </button>
+
+            <p class="form-note">I typically respond within 24 hours.</p>
+          </form>
+
+          <div class="success-msg" id="form-success">
+            ✅ Message sent! I'll be in touch within 24 hours.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       FOOTER
+       ══════════════════════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <a href="/" class="footer-logo">AR<span>.</span></a>
+
+        <ul class="footer-links" role="list">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="footer-social">
+          <a href="https://github.com/apanupam" target="_blank" rel="noopener noreferrer" aria-label="GitHub" id="footer-github">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/anupam-r-a44848329/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" id="footer-linkedin">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+          </a>
+          <a href="mailto:hello@anupamroy.dev" aria-label="Email" id="footer-email">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="16" height="16">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2024 Anupam Roy. All rights reserved.</p>
+        <p class="footer-made">Designed & built by <span>Anupam Roy</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

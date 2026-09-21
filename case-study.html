@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="cs-page-title">Case Study — Anupam Roy</title>
+  <meta name="description" id="cs-page-desc" content="Project case study by Anupam Roy, Independent Web Developer & Digital Product Builder." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⬡</text></svg>" />
+  <style>
+    /* Case study specific overrides */
+    .cs-divider { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+    .cs-img-block { border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--border-strong); margin: 28px 0; }
+    .cs-img-block img { width: 100%; display: block; }
+    .process-tag { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; background: rgba(99,102,241,0.08); border: 1px solid rgba(99,102,241,0.15); border-radius: 100px; font-size: 12px; color: var(--text-muted); margin-right: 6px; margin-bottom: 6px; }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav scrolled" id="nav" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="index.html" class="nav-logo">AR<span>.</span></a>
+        <div class="nav-cta">
+          <a href="index.html#work" class="btn btn-ghost" style="font-size:13px;padding:9px 18px;">← All Work</a>
+          <a href="index.html#contact" class="btn btn-primary" style="font-size:13px;padding:9px 18px;">Start a Project →</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       CASE STUDY: HERO
+       ══════════════════════════════════════════════════════ -->
+  <header class="cs-hero" id="cs-hero">
+    <div class="container">
+      <a href="index.html#work" class="cs-back" id="cs-back-link">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+        </svg>
+        Back to Work
+      </a>
+
+      <div class="cs-hero-meta" id="cs-meta-tags">
+        <!-- Injected by JS -->
+      </div>
+
+      <h1 id="cs-title">Loading…</h1>
+      <p class="cs-hero-sub" id="cs-subtitle">—</p>
+
+      <div class="cs-meta-grid" id="cs-info-grid">
+        <!-- Injected by JS -->
+      </div>
+
+      <div class="cs-hero-img" id="cs-hero-img-wrap">
+        <img id="cs-hero-img" src="" alt="" />
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       CASE STUDY: CONTENT
+       ══════════════════════════════════════════════════════ -->
+  <div class="cs-content">
+    <div class="container">
+      <div class="cs-grid">
+
+        <!-- Sidebar nav -->
+        <aside class="cs-sidebar" aria-label="Case study navigation">
+          <div class="cs-nav-title">On This Page</div>
+          <ul class="cs-nav-links" id="cs-nav" role="list">
+            <li><a href="#cs-overview">Overview</a></li>
+            <li><a href="#cs-challenge">The Challenge</a></li>
+            <li><a href="#cs-approach">The Approach</a></li>
+            <li><a href="#cs-design">UI/UX Process</a></li>
+            <li><a href="#cs-development">Development</a></li>
+            <li><a href="#cs-features">Key Features</a></li>
+            <li><a href="#cs-tech">Technologies</a></li>
+            <li><a href="#cs-responsive">Responsive</a></li>
+            <li><a href="#cs-performance">Performance</a></li>
+            <li><a href="#cs-result">Final Result</a></li>
+          </ul>
+        </aside>
+
+        <!-- Sections -->
+        <main class="cs-sections" id="cs-body">
+          <!-- Injected by JS -->
+        </main>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- CTA -->
+  <div class="cs-cta-block">
+    <div class="container">
+      <h2>Ready to Build Something<br><span class="text-grad">Like This?</span></h2>
+      <p>Let's discuss your project and what the right approach looks like for your business.</p>
+      <div class="cs-cta-btns">
+        <a href="index.html#contact" class="btn btn-primary" id="cs-footer-cta">Start a Project →</a>
+        <a href="index.html#work" class="btn btn-ghost" id="cs-view-more">View More Work</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer" style="padding:32px 0;" role="contentinfo">
+    <div class="container">
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2024 Anupam Roy. All rights reserved.</p>
+        <a href="index.html" class="footer-logo">AR<span>.</span></a>
+      </div>
+    </div>
+  </footer>
+
+
+  <script>
+    /* ── CASE STUDY DATA ──────────────────────────────────── */
+    const projects = {
+      propvista: {
+        title: 'PropVista — Real Estate Platform',
+        subtitle: 'Designed and developed a modern property discovery platform focused on lead generation, interactive search and mobile-first usability.',
+        industry: 'Real Estate',
+        type: 'Web Platform',
+        role: 'Design + Full-Stack Development',
+        timeline: '8 Weeks',
+        image: 'assets/project-propvista.jpg',
+        imageAlt: 'PropVista real estate platform interface showing property listings and map',
+        overview: `PropVista is a property discovery platform built for a real estate business that had outgrown its off-the-shelf template. The client needed a system that could handle a large, dynamic property inventory, offer map-based search, and systematically convert property searches into qualified leads — all on a mobile-first foundation.`,
+        challenge: `The existing website was a generic real estate template with no map integration, slow load times on mobile and no structured lead capture flow. Potential buyers would browse listings and then leave without making contact. The site was not designed around the user journey of someone trying to find a property.`,
+        approach: `Before designing anything, I mapped the user journey from initial search through to contact. The core finding was that most users want to explore geographically first — so the map needed to be a primary interface element, not a secondary view. The lead generation forms needed to be contextual (appearing at the right moment in the search journey) rather than a generic contact page.`,
+        design: [
+          'Wireframed three layout directions for the listing page: list-first, map-first, and split-view',
+          'Selected the split-view (map + listings panel) as it best served property discovery behaviour',
+          'Designed a clean property card with key details visible without expanding — reducing friction',
+          'Placed lead capture modals at high-intent moments: "Schedule a Viewing" and "Request Information"',
+          'Created a neutral dark-on-light palette to let property photography dominate',
+        ],
+        development: `The platform was built with Next.js for server-side rendering and SEO performance. Property data was served via a custom REST API with a PostgreSQL database, allowing dynamic filtering without full page reloads. The map integration used the Google Maps JavaScript API with clustered markers for large result sets. The lead forms submitted directly to the client's CRM via webhook integration.`,
+        features: [
+          'Interactive split-view map + listing panel with real-time filtering',
+          'Advanced search: location, price range, beds, baths, property type',
+          'Individual property detail pages with image galleries and virtual tour embeds',
+          'Contextual lead capture: Schedule Viewing, Request Info, Save to Wishlist',
+          'Agent profile pages with direct contact options',
+          'Admin dashboard for listing management (add/edit/archive properties)',
+          'SEO-optimised property pages with schema markup for Google',
+          'Mobile-responsive design with touch-optimised map controls',
+        ],
+        tech: ['React', 'Next.js', 'Node.js', 'Express.js', 'PostgreSQL', 'Google Maps API', 'Vercel', 'Tailwind CSS'],
+        responsive: `The design was built mobile-first. On mobile, the split-view collapses to a full-screen listing with a "Show Map" toggle. Property cards were redesigned for thumb-friendly tap targets. The search filter panel becomes a bottom sheet on mobile. Performance was a key priority: images are served via Next.js Image optimisation, lazy-loaded, and the first-load bundle was kept minimal.`,
+        performance: `The platform achieved a Lighthouse Performance score of 92 on mobile and 97 on desktop. Core Web Vitals were all in the "Good" range. Property images, which are critical to this type of site, were served in WebP format with lazy loading and responsive sizes.`,
+        result: `The completed platform replaced a static template with a purpose-built property discovery experience. The client received a scalable system they can manage themselves, with structured lead capture baked into the user journey rather than bolted on as an afterthought.`,
+      },
+
+      mindspace: {
+        title: 'MindSpace — Wellness Practice Website',
+        subtitle: 'Designed and developed a calming, professional healthcare website that builds trust and streamlines appointment booking for a mental health and wellness practice.',
+        industry: 'Healthcare / Wellness',
+        type: 'Business Website',
+        role: 'Design + Frontend Development',
+        timeline: '5 Weeks',
+        image: 'assets/project-mindspace.jpg',
+        imageAlt: 'MindSpace wellness website with calming design and appointment booking',
+        overview: `MindSpace is a mental health and wellness practice that needed a digital presence that genuinely reflected the care and professionalism of their service. The challenge was to create something that felt warm, trustworthy and safe — not clinical or corporate — while also making it easy for potential clients to understand the services and book appointments.`,
+        challenge: `The practice had been relying on a generic healthcare template that felt impersonal and overwhelming. New visitors were leaving without booking because the site didn't reassure them or make the booking process feel simple. For mental health services specifically, trust and approachability are critical conversion factors that a generic design fails to address.`,
+        approach: `I began with a content audit and competitive analysis of leading wellness brands. The core design principle became: reduce friction and anxiety at every step. This meant fewer words, cleaner navigation, warmer imagery choices and a booking flow that felt human — not bureaucratic. The architecture was planned to answer the visitor's three most common questions: What do you offer? Who are you? How do I get started?`,
+        design: [
+          'Chose a palette of sage green, off-white and warm taupe to convey calm and safety',
+          'Selected lifestyle photography over stock medical imagery to humanise the practice',
+          'Simplified the service offering into clearly named, jargon-free categories',
+          'Designed the booking flow as a guided 3-step process: choose service → choose practitioner → pick time',
+          'Added trust indicators throughout: qualifications, accreditations, client reviews',
+        ],
+        development: `Built with Next.js and Tailwind CSS for rapid development and maintainability. The appointment booking system integrated with Calendly's API, allowing practitioners to manage their own availability without a custom backend. Framer Motion was used for subtle page transitions that reinforce the calm, considered nature of the brand.`,
+        features: [
+          'Services overview with clear, jargon-free descriptions and pricing',
+          'Practitioner profile pages with bios and specialisations',
+          'Integrated appointment booking (Calendly API) with self-service scheduling',
+          'Client testimonials section (text-based, GDPR-compliant)',
+          'Resources / blog section for mental health content marketing',
+          'Mobile-optimised with touch-friendly booking flow',
+          'WCAG 2.1 AA accessibility compliance',
+          'Schema markup for local business SEO',
+        ],
+        tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'Calendly API', 'Vercel'],
+        responsive: `Every breakpoint was designed to maintain the calm, uncrowded aesthetic. On mobile, the booking flow becomes a full-screen guided wizard rather than a multi-column form. Navigation is simplified to the three most important actions: Services, About, Book Now. Content was carefully edited for mobile reading — shorter paragraphs, larger text, more breathing room.`,
+        performance: `Achieved 95+ Lighthouse scores across all categories. Images were served in WebP with Next.js Image optimisation. The Calendly integration is loaded asynchronously to prevent it blocking page render. The site passes Core Web Vitals thresholds on all tested devices.`,
+        result: `The redesigned website gives the practice a digital presence that matches the quality and care of their in-person service. The self-service booking integration removes the need for phone-tag appointment scheduling and allows the practice to accept bookings around the clock.`,
+      },
+
+      launchpad: {
+        title: 'Launchpad — SaaS Marketing Site',
+        subtitle: 'Designed and built a high-conversion marketing site for a B2B SaaS startup targeting free trial sign-ups ahead of product launch.',
+        industry: 'SaaS / Tech',
+        type: 'Landing Page',
+        role: 'Design + Frontend Development',
+        timeline: '3 Weeks',
+        image: 'assets/project-launchpad.jpg',
+        imageAlt: 'Launchpad SaaS landing page with pricing, features and CTA',
+        overview: `Launchpad needed to launch their B2B SaaS product with a marketing site designed around a single, measurable goal: free trial sign-ups. The entire page had to communicate the value of the product clearly, handle objections proactively and make signing up feel like the obvious next step.`,
+        challenge: `The founders had strong product knowledge but no experience in conversion-focused web design. Their initial brief was to "make something that looks professional" — but the real problem was that they needed a page that would actually convert. Without a clear conversion architecture, a visually polished site is just expensive decoration.`,
+        approach: `I started with the conversion funnel. What does someone need to know before they'll commit to signing up? Working through that question produced the page architecture: strong value proposition → social proof → feature benefits → pricing → FAQ → final CTA. The visual design was secondary to this structure — but it needed to look credible and modern to a B2B tech audience.`,
+        design: [
+          'Dark, high-contrast design language to feel technical and premium without being unapproachable',
+          'Product screenshot embedded in the hero to show exactly what the user is signing up for',
+          'Social proof logos placed immediately below the fold (trust, not boasting)',
+          'Feature section focused on outcomes ("what it does for you"), not features ("what it is")',
+          'Pricing table with the recommended tier highlighted and friction-reducing CTA text',
+          'FAQ section addressing the most common objections to signing up',
+        ],
+        development: `Built with Next.js for performance and easy future expansion. TypeScript was used throughout for reliability. Framer Motion handled the scroll-triggered animations to make the page feel alive without being distracting. The sign-up form connected directly to the product's API endpoint. Vercel deployment with edge CDN ensured sub-1-second load times globally.`,
+        features: [
+          'Conversion-optimised hero with product preview and primary CTA',
+          'Social proof: company logos and a rotating testimonial component',
+          'Feature-benefit section with animated reveal on scroll',
+          'Three-tier pricing table with toggle for monthly/annual billing',
+          'Expandable FAQ with smooth accordion animations',
+          'Email capture integration connected to product sign-up flow',
+          'Analytics event tracking on all CTA interactions',
+          'Cookie-free analytics (GDPR-friendly)',
+        ],
+        tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'Vercel'],
+        responsive: `The pricing table reflows to a card stack on mobile with the recommended plan expanded by default. The hero product screenshot adapts to a vertical crop on small screens to keep the core value prop visible. CTAs are sticky on mobile scroll to ensure sign-up is always one tap away.`,
+        performance: `Achieved Lighthouse Performance score of 98 on desktop and 94 on mobile. The bundle size was kept lean by avoiding unnecessary dependencies. All images were optimised via Next.js Image, and animations used the GPU compositor layer to avoid layout thrashing.`,
+        result: `The site launched ahead of schedule and gave the founding team a credible, conversion-focused online presence to support their outreach and demo campaigns. The architecture was documented to allow the team to iterate on copy and pricing independently without touching the codebase.`,
+      },
+
+      artisaneats: {
+        title: 'Artisan Eats — Restaurant & Online Ordering',
+        subtitle: 'Designed and built a premium restaurant website with an integrated, commission-free online ordering system and CMS-managed menu.',
+        industry: 'Restaurant / Hospitality',
+        type: 'E-commerce + Business Website',
+        role: 'Design + Full-Stack Development',
+        timeline: '10 Weeks',
+        image: 'assets/project-artisaneats.jpg',
+        imageAlt: 'Artisan Eats restaurant website with online ordering and luxurious dark design',
+        overview: `Artisan Eats is a premium restaurant group that wanted to reclaim their online ordering revenue from third-party aggregators and build a digital presence that matched the quality of their in-restaurant experience. The project required both a brand-forward marketing site and a fully functional ordering and kitchen management system.`,
+        challenge: `The restaurant was losing a significant portion of online order revenue to aggregator platform commissions, while also having no control over how their brand appeared on those platforms. Their existing website was a basic brochure site with no ordering capability. The goal was to build a direct ordering channel that was premium enough to make customers choose it over delivery apps.`,
+        approach: `The two parallel goals — brand experience and functional ordering — were treated as a unified product rather than two separate builds. Every design and development decision was made with both in mind. The ordering UX was studied against leading food delivery apps to understand what makes them easy to use, then reimagined within the brand's premium aesthetic.`,
+        design: [
+          'Deep charcoal and warm amber palette to convey luxury without being cold',
+          'Full-screen food photography as the primary design element throughout',
+          'Menu designed as a visual catalogue rather than a text list',
+          'Cart interface designed as a slide-in panel to keep the menu browsing flow uninterrupted',
+          'Checkout flow reduced to 3 steps with optional account creation (not mandatory)',
+        ],
+        development: `Built with Next.js for both the marketing site and ordering system. The menu and content were managed via Sanity CMS, allowing the client to update dishes, prices and availability in real time without developer involvement. Stripe handled payment processing with support for card and Apple Pay. A lightweight kitchen display interface was built for order management on the restaurant side.`,
+        features: [
+          'Brand-forward marketing site with story, team and reservations',
+          'Visual menu browsing with category filters and dietary labels',
+          'Real-time menu availability management via Sanity CMS',
+          'Basket with item customisation (size, extras, notes)',
+          'Stripe checkout with card and Apple Pay support',
+          'Order confirmation via email with estimated delivery/collection time',
+          'Kitchen dashboard for order queue management',
+          'Loyalty points system for repeat customers',
+          'Scheduled ordering (pre-order for a specific time)',
+        ],
+        tech: ['Next.js', 'TypeScript', 'Sanity CMS', 'Stripe', 'Node.js', 'MongoDB', 'Tailwind CSS', 'Vercel'],
+        responsive: `The ordering interface was designed mobile-first since the majority of food orders happen on mobile. The visual menu adapts to a single-column scroll on mobile. The cart panel becomes a full-screen overlay. Checkout is optimised for one-thumb use with large tap targets and autofill-enabled form fields.`,
+        performance: `Food photography is the lifeblood of this type of site, so significant effort went into image optimisation. All images are served in WebP via Next.js Image with blur-up placeholders for instant visual feedback. The Sanity CDN handles image delivery at appropriate sizes per breakpoint. Lighthouse scores: Performance 91, Accessibility 98, Best Practices 100, SEO 100.`,
+        result: `The restaurant now has a direct ordering channel that reflects their brand, keeps 100% of the order revenue and provides them with first-party customer data. The Sanity CMS means menu changes, seasonal specials and pricing updates are handled by the restaurant team in minutes rather than requiring developer time.`,
+      },
+    };
+
+    /* ── RENDER CASE STUDY ────────────────────────────────── */
+    function renderCaseStudy() {
+      const params = new URLSearchParams(window.location.search);
+      const key = params.get('project');
+      const data = projects[key];
+
+      if (!data) {
+        document.getElementById('cs-title').textContent = 'Project Not Found';
+        document.getElementById('cs-subtitle').textContent = 'This project does not exist.';
+        return;
+      }
+
+      // Page title + meta
+      document.getElementById('cs-page-title').textContent = `${data.title} — Anupam Roy`;
+      document.getElementById('cs-page-desc').setAttribute('content', data.subtitle);
+      document.title = `${data.title} — Anupam Roy`;
+
+      // Hero
+      document.getElementById('cs-title').textContent = data.title;
+      document.getElementById('cs-subtitle').textContent = data.subtitle;
+
+      // Meta tags
+      document.getElementById('cs-meta-tags').innerHTML = `
+        <span class="cs-tag">${data.industry}</span>
+        <span class="cs-tag">${data.type}</span>
+      `;
+
+      // Info grid
+      document.getElementById('cs-info-grid').innerHTML = `
+        <div class="cs-meta-card">
+          <div class="cs-meta-card-label">Role</div>
+          <div class="cs-meta-card-val">${data.role}</div>
+        </div>
+        <div class="cs-meta-card">
+          <div class="cs-meta-card-label">Industry</div>
+          <div class="cs-meta-card-val">${data.industry}</div>
+        </div>
+        <div class="cs-meta-card">
+          <div class="cs-meta-card-label">Timeline</div>
+          <div class="cs-meta-card-val">${data.timeline}</div>
+        </div>
+      `;
+
+      // Hero image
+      const img = document.getElementById('cs-hero-img');
+      img.src = data.image;
+      img.alt = data.imageAlt;
+
+      // Body sections
+      const body = document.getElementById('cs-body');
+      body.innerHTML = `
+
+        <div class="cs-section-block reveal" id="cs-overview">
+          <h2>Overview</h2>
+          <p>${data.overview}</p>
+        </div>
+
+        <div class="cs-divider"></div>
+
+        <div class="cs-section-block reveal" id="cs-challenge">
+          <h2>The Challenge</h2>
+          <p>${data.challenge}</p>
+        </div>
+
+        <div class="cs-divider"></div>
+
+        <div class="cs-section-block reveal" id="cs-approach">
+          <h2>The Approach</h2>
+          <p>${data.approach}</p>
+        </div>
+
+        <div class="cs-divider"></div>
+
+        <div class="cs-section-block reveal" id="cs-design">
+          <h2>UI/UX Process</h2>
+          <ul>
+            ${data.design.map(item => `<li>${item}</li>`).join('')}
+          </ul>
+          <div class="cs-img-block">
+            <img src="${data.image}" alt="${data.imageAlt}" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="cs-divider"></div>
+
+        <div class="cs-section-block reveal" id="cs-development">
+          <h2>Development</h2>
+          <p>${data.development}</p>
+        </div>
+
+        <div class="cs-divider"></div>
+
+        <div class="cs-section-block reveal" id="cs-features">
+          <h2>Key Features</h2>
+          <div class="cs-feature-list">
+            ${data.features.map(f => `<div class="cs-feature-item">${f}</div>`).join('')}
+          </div>
+        </div>
+
+        <div class="cs-divider"></div>
+
+        <div class="cs-section-block reveal" id="cs-tech">
+          <h2>Technologies</h2>
+          <div class="cs-tech-stack">
+            ${data.tech.map(t => `<span class="cs-tech-badge">${t}</span>`).join('')}
+          </div>
+        </div>
+
+        <div class="cs-divider"></div>
+
+        <div class="cs-section-block reveal" id="cs-responsive">
+          <h2>Responsive Experience</h2>
+          <p>${data.responsive}</p>
+        </div>
+
+        <div class="cs-divider"></div>
+
+        <div class="cs-section-block reveal" id="cs-performance">
+          <h2>Performance</h2>
+          <p>${data.performance}</p>
+        </div>
+
+        <div class="cs-divider"></div>
+
+        <div class="cs-section-block reveal" id="cs-result">
+          <h2>Final Result</h2>
+          <div class="cs-result-block">
+            <p>${data.result}</p>
+          </div>
+        </div>
+      `;
+
+      // Re-run reveal observer on new elements
+      document.querySelectorAll('.reveal').forEach(el => {
+        observer.observe(el);
+      });
+
+      // Sidebar scroll tracking
+      initSidebarTracking();
+    }
+
+    /* ── SCROLL REVEAL ─────────────────────────────────────── */
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -60px 0px' }
+    );
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    /* ── SIDEBAR ACTIVE TRACKING ──────────────────────────── */
+    function initSidebarTracking() {
+      const sections = document.querySelectorAll('.cs-sections [id]');
+      const navLinks = document.querySelectorAll('.cs-nav-links a');
+
+      const sectionObs = new IntersectionObserver(
+        (entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              navLinks.forEach(link => {
+                link.classList.toggle(
+                  'active',
+                  link.getAttribute('href') === `#${entry.target.id}`
+                );
+              });
+            }
+          });
+        },
+        { threshold: 0.5 }
+      );
+
+      sections.forEach(s => sectionObs.observe(s));
+    }
+
+    /* ── NAV SCROLL ────────────────────────────────────────── */
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      // always scrolled style on case study page
+    }, { passive: true });
+
+    /* ── INIT ──────────────────────────────────────────────── */
+    renderCaseStudy();
+  </script>
+</body>
+</html>
